@@ -4,7 +4,32 @@
 
         body {
             font-family: Helvetica; 
+            padding-top: 60px;
+            padding-bottom: 40px;
          }
+         .fixed-header, .fixed-footer{
+            width: 100%;
+            position: fixed;        
+            background: #333;
+            padding: 10px 0;
+            color: rgb(249, 3, 3);
+        }
+        .fixed-header{
+            top: 10;
+        }
+        .fixed-footer{
+            bottom: 10;
+        }
+        .container{
+            width: 80%;
+            margin: 0 auto; /* Center the DIV horizontally */
+        }
+        nav a{
+            color: rgb(88, 235, 15);
+            text-decoration: none;
+            padding: 7px 25px;
+            display: inline-block;
+        }
  
          /* p {
              font-family: Helvetica;
@@ -32,4 +57,24 @@ section {
     padding: 0;
     margin: 0 auto;
     width: 800px;
+}
+section main, section aside {
+    border: solid 2px rgb(144, 26, 26);
+    height: 500px;
+}
+main{
+    text-align: center;
+    background-color: rgb(169, 107, 240);
+    width: 500px
+}
+main:hover {
+    background-color: rgb(251, 129, 210);
+}
+aside{
+    text-align: center;
+    background-color: rgb(235, 255, 80);
+    width: 250px
+}
+aside:hover {
+    background-color: rgb(255, 133, 80);
 }
