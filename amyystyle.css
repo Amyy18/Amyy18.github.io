@@ -30,6 +30,13 @@
             padding: 7px 25px;
             display: inline-block;
         }
+        p{
+            
+            color: rgb(64, 0, 0);
+        }
+        
+
+
  
          /* p {
              font-family: Helvetica;
@@ -59,7 +66,7 @@ section {
     width: 800px;
 }
 section main, section aside {
-    border: solid 2px rgb(144, 26, 26);
+    border: solid 2px rgb(64, 41, 138);
     height: 500px;
 }
 main{
